@@ -7,11 +7,20 @@
   position: relative;
   text-align: center;
   color: white;
-  max-width: 800px;
+  height: 50%
+  width: 100%
   margin: 0 auto;
 }
 
-
+.container .content {
+  position: absolute; /* Position the background text */
+  top: 0; /* At the top. Use bottom:0 to append it to the bottom */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
 
 .bottom-left {
   position: absolute;
@@ -52,6 +61,7 @@
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 auto; /* Center it */
 }        
         
 </style>
