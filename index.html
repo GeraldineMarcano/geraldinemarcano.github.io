@@ -27,7 +27,12 @@ body, html {
   background-size: cover;
 }
 
-
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
                                                                                                                                     /*First Text Box*/
 /* Position text in the middle of the page/image */
 .bg-text {
@@ -56,11 +61,13 @@ body, html {
     <div class="bg"></div>                                                                                       <!-- Background -->
 
     <!--<div class="bg-text">   </div>  Middle Text Box -->
-      <p style="line-height: 1.0; font-size:20rem"; color:white;">
+    <div class="centered">
+      <p style="line-height: 1.0; font-size:5rem"; color:white;">
         Taqueria<br>
         Fiesta<br>
         Latina
       </p>
+    </div>
   
     
 
